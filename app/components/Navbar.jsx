@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import NavLink from './NavLink'
 import {Bars3Icon} from "@heroicons/react/24/solid"
+import { XMarkIcon } from '@heroicons/react/24/solid'
 import MenuOverlay from './MenuOverlay';
 
 const Navlinks = [
@@ -47,7 +48,7 @@ const Navbar = () => {
                     !navbarOpen ? (
                         <button onClick={()=>setNavbarOpen(true)} className='text-slate-800 flex items-center px-3 py-2 border rounded border-slate-800 '> <Bars3Icon className='h-5 w-5' /></button>
                     ) :(
-                        <button onClick={()=>setNavbarOpen(false)} className='text-slate-800 flex items-center px-3 py-2 border rounded border-slate-800 '> <Bars3Icon className='h-5 w-5' /></button>
+                        <button onClick={()=>setNavbarOpen(false)} className='text-slate-800 flex items-center px-3 py-2 border rounded border-slate-800 '> <XMarkIcon className='h-5 w-5' /></button>
                     )
                 }
             </div>
