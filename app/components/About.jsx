@@ -61,7 +61,7 @@ Our dedicated team ensures that the solutions provided are dependable and long-t
       </div>
       <div>
       <div className='font-sans text-center m-10 mb-1 lg:m-16 lg:mb-2'>
-          <h1 className='text-[#E68F50] text-xl lg:text-4xl text-center font-extrabold'>Stackkaroos's Digital Services</h1>
+          <h1 className='text-[#E68F50] text-xl lg:text-4xl text-center font-extrabold'>Stackkaroos Digital Services</h1>
           </div>
         <div className='font-sans text-center px-0 lg:px-20'>
           <p className='text-[#36454F] text-sm lg:text-xl text-center font-bold px-0 lg:px-16'>We excel with reliability, innovation and customer-centric approach for our quality products.
