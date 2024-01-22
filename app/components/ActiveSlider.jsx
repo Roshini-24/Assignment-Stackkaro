@@ -6,9 +6,9 @@ const ActiveSlider = () => {
     <div className="m-auto mx-3 lg:mx-10 px-4" >
         <div className="mt-4 lg:mt-20 grid grid-cols-1 lg:grid-cols-3">
             {
-                Data.map((d) =>(
+                Data.map((d,index) =>(
                     
-                    <div className="border-[1px] lg:border-[2px] h-[200px] lg:h-[380px] border-white m-1 lg:m-5 bg-gradient-to-b from-[#e2f2fd]  rounded-[20px]">
+                    <div key={index} className="border-[1px] lg:border-[2px] h-[200px] lg:h-[380px] border-white m-1 lg:m-5 bg-gradient-to-b from-[#e2f2fd]  rounded-[20px]">
                      <div className="rounded-t-xl flex justify-center px-5 lg:px-10 items-center"> 
                         <img src={d.img} alt="pic" className="h-7 lg:h-14 w-7 lg:w-14 m-3 lg:m-10 "/>
                         <p className=" text-lg lg:text-2xl font-bold text-[#0A56F1]">{d.title}</p>
