@@ -5,9 +5,9 @@ const TalentHiring = () => {
         <div className="m-auto mx-3 mb-20 lg:mx-6 px-4" >
             <div className="mt-4 grid grid-cols-1 lg:grid-cols-3">
                 {
-                    Data.map((d) =>(
+                    Data.map((d,index) =>(
                         
-                        <div className="h-[210px] lg:h-[330px] m-1 lg:m-5 bg-white border-[2px] shadow-xl rounded-[20px]">
+                        <div key={index} className="h-[210px] lg:h-[330px] m-1 lg:m-5 bg-white border-[2px] shadow-xl rounded-[20px]">
                          <div className=" rounded-t-xl justify-center flex px-5 lg:px-10 items-center"> 
                             <img src={d.img} alt="pic" className="h-10 lg:h-20 w-10 lg:w-20 m-3 lg:m-5 "/>
                             
