@@ -18,7 +18,7 @@ const About = () => {
       </br>
       <p className='text-[#36454F] text-sm lg:text-xl text-center font-bold lg:text-left'>
       Operating from our registered office in Agartala Sadar, Tripura (W), our company is officially registered with the Corporate Identification Number (CIN). Our active status and an authorized share capital of Rs 10.00 lac are a source of pride. </p>
-      <button className='px-6 py-3 rounded-full mt-10 bg-[#0A56F1] lg:bg-[#E68F50]  hover:bg-slate-200 text-white font-semibold text-sm lg:text-xl'> &#x20B9; Get Estimated Project Cost</button>   
+      <button className='px-6 py-3 rounded-full mt-10 bg-[#0A56F1] lg:bg-[#E68F50]  hover:bg-[#E68F50] lg:hover:bg-[#0A56F1] text-white font-semibold text-sm lg:text-xl'> &#x20B9; Get Estimated Project Cost</button>   
       </div>
       <div className='Col-span-2 order-1 lg:order-2'>
         <Image
