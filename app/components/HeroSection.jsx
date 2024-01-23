@@ -16,7 +16,7 @@ const HeroSection = () => {
         EISPL is convinced that one should diversify the offering, given the changing needs of the clients.
          That is why we engage in multiple projects and activities. We also possess knowledge in web development, 
          app development, UI/UX design, as well as digital marketing. </p>
-      <button className='px-6 py-3 rounded-full mt-10 bg-[#E68F50] hover:bg-slate-200 text-white font-semibold text-sm lg:text-lg'>&#x1F57E; Book a Call</button>   
+      <button className='px-6 py-3 rounded-full mt-10 bg-[#E68F50] hover:bg-[#0A56F1] text-white font-semibold text-sm lg:text-lg'>&#x1F57E; Book a Call</button>   
       </div>
       <div className='Col-span-2 order-1 lg:order-2'>
         <Image
