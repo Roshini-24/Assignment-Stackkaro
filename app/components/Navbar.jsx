@@ -53,10 +53,10 @@ const Navbar = () => {
                 }
             </div>
             <div className="bg-gradient-to-r from-[#b8c4e0] to-[#e9cdcd] px-5 py-5 rounded-[30px] menu hidden md:block md:w-auto" id="navbar">
-                <ul className='flex p-4 md:p-0 md:flex-row md:space-x-24 mt-0'> 
+                <ul className='flex p-4 md:p-0 md:flex-row md:space-x-16 mt-0'> 
                     {
                         Navlinks.map( (link, index) => (
-                            <li Key={index}>
+                            <li Key={index} className='hover:bg-white hover:rounded-full px-3 py-1'>
                                 <NavLink href={link.path} title={link.title} />
                             </li>
                         ) 
